@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Upfinzo</title>
+   <link rel="stylesheet" href="css/style.css">
+   <!-- =========bootstrap====css======= -->
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+   <!-- =========owl carosel====css====== -->
+   <link rel="stylesheet" href="owl/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="owl/css/owl.theme.default.min.css">
+   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+   <link rel="manifest" href="manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+   <section class="slider_section inner-shadow">
+      <div class="container-fluid">
+         <h1 class="heading">What User says</h1>
+         <p class="sub_heading">Testimonials that speak louder than words! Customer stories that light up <br> our
+            day.
+         </p>
+         <div class="carousel_slider_part">
+            <div class="left_inner_shadow">
+            </div>
+            <div class="owl-carousel owl-theme slider">
+              
+               <div class="item move-up">
+                  <div class="card animated-border">
+                     <div class="testi_pro_img">
+                        <img src="images/robyn.jpg" alt="">
+                     </div>
+                     <h4 class="testi_name">Robyn Mays</h4>
+                     <p class="testi_description">With Agorapulse, we’ve managed to streamline our social media
+                        processes. The reporting has allowed us to fit monthly and evaluate what we did.
+                     </p>
+                  </div>
+               </div>
+               <div class="item move-down">
+                  <div class="card animated-border">
+                     <div class="testi_pro_img">
+                        <img src="images/andrea.jpg" alt="">
+                     </div>
+                     <h4 class="testi_name">Andrea Morgan</h4>
+                     <p class="testi_description">I know if something goes wrong, Agorapulse is always on hand to help
+                        us resolve the issue, not by an email ‘grab a number’ way, but to physically talk to.
+                     </p>
+                  </div>
+               </div>
+               <div class="item move-up">
+                  <div class="card animated-border">
+                     <div class="testi_pro_img">
+                        <img src="images/michele.jpg" alt="">
+                     </div>
+                     <h4 class="testi_name">Michele Biaso</h4>
+                     <p class="testi_description">We are super happy that we found a platform that has just about
+                        everything we need. We are able to manage our own profiles as well as our clients.
+                     </p>
+                  </div>
+               </div>
+               <div class="item move-down">
+                  <div class="card animated-border">
+                     <div class="testi_pro_img">
+                        <img src="images/narissa.jpg" alt="">
+                     </div>
+                     <h4 class="testi_name">Narissa Chan</h4>
+                     <p class="testi_description">It only took a matter of hours to get 50+ clients set up within
+                        Agorapulse. After that, all staff was fully trained and up to scratch using the platform.
+                     </p>
+                  </div>
+               </div>
+               <div class="item move-up">
+                  <div class="card animated-border">
+                     <div class="testi_pro_img">
+                        <img src="images/manual.jpg" alt="">
+                     </div>
+                     <h4 class="testi_name">Manuel Romero</h4>
+                     <p class="testi_description">The reporting functions in Agorapulse have been a lifesaver. Apart
+                        from saving up to 40 minutes on each report, we have improved the report.
+                     </p>
+                  </div>
+               </div>
+               <div class="item move-down">
+                  <div class="card animated-border">
+                     <div class="testi_pro_img">
+                        <img src="images/paul.jpg" alt="">
+                     </div>
+                     <h4 class="testi_name">Paul Gully</h4>
+                     <p class="testi_description">We’ve cut down the hours we work as a team by 3 hours each day. We are
+                        no longer missing powerful interactions with customers, and we powerful.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="js/jquery.min.js"></script>
+   <!-- =========bootstarp====js=========-->
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+   <!-- =========owlcarousel===js========= -->
+   <script src="owl/js/owl.carousel.min.js"></script>
+   <!-- =========owlcarousel===script=== -->
+   <script>
+      $(document).ready(function () {
+         var owl = $(".owl-carousel");
+         var toggle = false;
+         $('.slider').owlCarousel({
+            center: true,
+            loop: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 1700,
+            autoplayHoverPause: false,
+            smartSpeed:15000,
+            margin: 25,
+            responsive: {
+               0: {
+                  items: 1,
+                  center: false,
+               },
+               600: {
+                  items: 2,
+                  center: false,
+               },
+               1000: {
+                  items: 4,
+                  center: true,
+                  loop: true,
+               }
+            },
+            onTranslate: function (event) {
+               const items = event.target.querySelectorAll('.item');
+               items.forEach((item, index) => {
+                  const isEven = index % 2 === 0;
+                  item.classList.remove('move-up', 'move-down');
+               });
+
+               if (toggle) {
+                  items.forEach((item, index) => {
+                     const isEven = index % 2 === 0;
+                     if (isEven) {
+                        item.classList.add('move-up');
+                     } else {
+                        item.classList.add('move-down');
+                     }
+                  });
+               } else {
+                  items.forEach((item, index) => {
+                     const isEven = index % 2 === 0;
+                     if (isEven) {
+                        item.classList.add('move-down');
+                     } else {
+                        item.classList.add('move-up');
+                     }
+                  });
+               }
+               toggle = !toggle;
+            }
+         });
+
+// ======This is  hover the item while pause=====I tried my best but worked didn't not work properly so i skiped that======
+
+         // $(".slider .item").hover(
+         //    function () {
+         //       console.log("hover true")
+         //       owl.trigger('stop.owl.autoplay'); 
+         //       owl.data('owl.carousel').options.autoplayTimeout = false;
+         //       owl.data('owl.carousel').options.smartSpeed = false; 
+         //       owl.data('owl.carousel').options.smartSpeed;
+         //    },
+         //    function () {
+         //       console.log("hover false")
+         //       owl.data('owl.carousel').options.autoplay = false; 
+         //       owl.data('owl.carousel').options.smartSpeed = 15000;
+         //       owl.data('owl.carousel').options.autoplayTimeout = false;
+         //       owl.trigger('play.owl.autoplay'); 
+         //    }
+         // );
+      });
+
+   </script>
+   
+</body>
+
+</html>
