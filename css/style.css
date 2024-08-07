@@ -197,6 +197,11 @@ body {
 		font-size: 22px;
 	}
 
+	
+
+}
+
+@media only screen and (max-width: 600px) {
 	.move-up {
 		transform: translateY(0px);
 		transition: 0s ease-in-out !important;
@@ -206,10 +211,6 @@ body {
 		transform: translateY(0px);
 		transition: 0s ease-in-out !important;
 	}
-
-}
-
-@media only screen and (max-width: 600px) {
 	.carousel_slider_part {
 		padding-bottom: 20px;
 		margin-top: 30px;
